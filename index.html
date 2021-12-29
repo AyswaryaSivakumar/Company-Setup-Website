@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Website Landing Page Design</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+	<section>
+		<input type="checkbox" id="check">
+		<header>
+			<h2> <a href="#" class="logo">GRG</a></h2>
+			<div class="navigation">
+				<a href="#">Home</a>
+				<a href="about.html">About</a>
+				<a href="services.html">Services</a>
+				<a href="contact.html">Contact</a>
+			</div>
+			<label for="check" class="menu-bar">
+				<i class="fas fa-bars menu-btn"></i>
+				<i class="fas fa-times close-btn"></i>
+
+			</label>
+		</header>
+		<div class="content">
+			<div class="info">
+				<h2>Set up your company <br><span>with UAE Free Zones</span></h2>
+				<p>Our business advisors have been setting up new businesses in UAE for years and know all the ins and outs. They will be happy to give you the advice that you need and will most likely already have experience in setting up your business type. We want to make your dreams come true!</p>
+				<a href="login.html" class="info-button">Get Started</a>
+			</div>	
+		</div>
+		<div class="chat-window">
+			<input type="checkbox" id="click">
+			<label for="click">
+				<i class="fa-brands fa-facebook-messenger"></i>
+				<i class="fas fa-times"></i>
+			</label>
+			<div class="wrapper">
+				<div class="head-text">Let's chat?-Online</div>
+				<div class="chat-box">
+					<div class="desc-text">Please fill out the form below to start chatting with the next available agent.
+					</div>
+					<form action="#">
+						<div class="field">
+							<input type="text" placeholder="Your Name" required>
+						</div>
+						<div class="field">
+							<input type="email" placeholder="Email Address" required>
+						</div>
+						<div class="field textarea">
+							<textarea cols="30" rows="10" placeholder="Explain your queries.." required></textarea>
+						</div>
+						<div class="field">
+							<button type="submit">Start Chat</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="media-icons">
+			<div>
+				<a href="#"><i class="fab fa-whatsapp"></i></a>
+				<a href="#"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+			</div>
+			<div class="content subscribe-panel">
+				<h4>Sign up for the Newsletter</h4>
+				<div>
+					<input type="email" placeholder="EMAIL" class="subscribe-field" required>
+					<input type="submit" value="Subscribe" class="info-button subscribe-btn">
+				</div>
+			</div>
+		</div>	
+	</footer>
+</body>
+</html>
